@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
-import 'package:supabase_flutter/supabase_flutter.dart';
 import '../../../../core/theme/app_colors.dart';
 import '../../../../core/constants/app_config.dart';
 
@@ -41,25 +40,8 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
 
   void _navigateToNextScreen() {
     if (!mounted) return;
-
-    final isSupabaseInitialized = AppConfig.supabaseUrl.isNotEmpty && AppConfig.supabaseAnonKey.isNotEmpty;
-
-    if (isSupabaseInitialized) {
-      try {
-        final session = Supabase.instance.client.auth.currentSession;
-        if (session != null) {
-          Navigator.pushReplacementNamed(context, '/home');
-        } else {
-          Navigator.pushReplacementNamed(context, '/login');
-        }
-      } catch (e) {
-        // Fallback if Supabase throws error (e.g. not initialized properly)
-        Navigator.pushReplacementNamed(context, '/onboarding');
-      }
-    } else {
-      // Demo mode: Go to Onboarding
-      Navigator.pushReplacementNamed(context, '/onboarding');
-    }
+    // Temporary bypass of auth flow
+    Navigator.pushReplacementNamed(context, '/home');
   }
 
   @override
