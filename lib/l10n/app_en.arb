@@ -1,0 +1,167 @@
+{
+  "@@locale": "en",
+  
+  "appTitle": "FocusForge",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  
+  "welcomeMessage": "Your AI Coach Against Burnout",
+  "@welcomeMessage": {
+    "description": "Welcome message on splash screen"
+  },
+  
+  "getStarted": "Get Started",
+  "continueButton": "Continue",
+  "skip": "Skip",
+  "next": "Next",
+  "back": "Back",
+  "done": "Done",
+  "cancel": "Cancel",
+  "save": "Save",
+  "delete": "Delete",
+  "edit": "Edit",
+  
+  "email": "Email",
+  "password": "Password",
+  "signIn": "Sign In",
+  "signUp": "Sign Up",
+  "dontHaveAccount": "Don't have an account? Sign Up",
+  "alreadyHaveAccount": "Already have an account? Sign In",
+  "signOut": "Sign Out",
+  
+  "focusScore": "Focus Score",
+  "energized": "Energized",
+  "focused": "Focused",
+  "tired": "Tired",
+  "burnout": "Burnout",
+  
+  "onboardingRole": "What describes you best?",
+  "roleFreelancer": "Freelancer",
+  "roleRemoteWorker": "Remote Worker",
+  "roleManager": "Manager",
+  "roleStudent": "Student",
+  
+  "onboardingHours": "How many hours do you spend on your computer daily?",
+  "hours4to6": "4-6 hours",
+  "hours6to8": "6-8 hours",
+  "hours8to10": "8-10 hours",
+  "hoursMore10": "10+ hours",
+  
+  "onboardingPain": "What's your main challenge?",
+  "painBurnout": "Burnout",
+  "painProcrastination": "Procrastination",
+  "painAnxiety": "Anxiety",
+  "painEnergyLoss": "Energy Loss",
+  "painAdhd": "ADHD-like symptoms",
+  
+  "onboardingBurnoutLevel": "How would you rate your current burnout level?",
+  "burnoutLevelLow": "Low (1-3)",
+  "burnoutLevelMedium": "Medium (4-6)",
+  "burnoutLevelHigh": "High (7-10)",
+  
+  "homeTitle": "Home",
+  "trackerTitle": "Tracker",
+  "habitsTitle": "Habits",
+  "communityTitle": "Community",
+  "profileTitle": "Profile",
+  
+  "imFeeling": "I'm feeling...",
+  "todayProgress": "Today's Progress",
+  "focusTime": "Focus Time",
+  "tasksCompleted": "Tasks Completed",
+  
+  "microHabits": "Micro-Habits",
+  "takeABreak": "Take a Break",
+  "startPomodoro": "Start Pomodoro",
+  "deepFocus": "Deep Focus",
+  
+  "weeklyReport": "Weekly Report",
+  "thisWeek": "This Week",
+  "lastWeek": "Last Week",
+  "avgFocusScore": "Avg Focus Score",
+  "totalFocusTime": "Total Focus Time",
+  "youSurvivedAnotherWeek": "You survived another week! 🎉",
+  
+  "dailyWins": "Daily Wins",
+  "shareYourWin": "Share your win...",
+  "victoryFeed": "Victory Feed",
+  "postWin": "Post Win",
+  
+  "aiCoach": "AI Coach",
+  "aiTherapist": "AI Therapist",
+  "startSession": "Start Session",
+  "voiceMode": "Voice Mode",
+  "textMode": "Text Mode",
+  "howAreYouToday": "How are you feeling today?",
+  
+  "premium": "Premium",
+  "upgradeToPremium": "Upgrade to Premium",
+  "premiumFeatures": "Premium Features",
+  "unlimitedAi": "Unlimited AI requests",
+  "voiceModeAccess": "Voice mode access",
+  "weeklyReports": "Weekly AI reports",
+  "allHabits": "All micro-habits",
+  "prioritySupport": "Priority support",
+  
+  "monthlyPlan": "Monthly Plan",
+  "yearlyPlan": "Yearly Plan",
+  "perMonth": "/month",
+  "perYear": "/year",
+  "savePercent": "Save {percent}%",
+  "@savePercent": {
+    "description": "Savings percentage",
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  
+  "signIn": "Sign In",
+  "signUp": "Sign Up",
+  "signOut": "Sign Out",
+  "email": "Email",
+  "password": "Password",
+  "forgotPassword": "Forgot Password?",
+  "dontHaveAccount": "Don't have an account?",
+  "alreadyHaveAccount": "Already have an account?",
+  
+  "settings": "Settings",
+  "notifications": "Notifications",
+  "language": "Language",
+  "theme": "Theme",
+  "about": "About",
+  "privacyPolicy": "Privacy Policy",
+  "termsOfService": "Terms of Service",
+  
+  "errorGeneric": "Something went wrong. Please try again.",
+  "errorNetwork": "Please check your internet connection.",
+
+  "focusScoreTitle": "Focus Score",
+  "focusScoreExcellent": "EXCELLENT",
+  "focusScoreGood": "GOOD",
+  "focusScoreNeedsAttention": "NEEDS ATTENTION",
+  "focusScoreMessage": "Your focus is optimized for deep work today.",
+  "actionStartFocus": "Start Focus",
+  "actionLogMood": "Log Mood",
+  "actionAiCoach": "AI Coach",
+  "dailySummary": "Daily Summary",
+  "statFocusTime": "Focus Time",
+  "statTasks": "Tasks",
+  "statEnergy": "Energy",
+  "greeting": "Good Morning, {name}",
+  "@greeting": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "greetingSubtitle": "Ready to focus?",
+  
+  "errorOccurred": "An error occurred",
+  "tryAgain": "Try Again",
+  "noInternetConnection": "No internet connection",
+  "somethingWentWrong": "Something went wrong"
+}
