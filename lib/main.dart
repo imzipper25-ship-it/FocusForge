@@ -12,6 +12,9 @@ import 'features/auth/presentation/pages/login_page.dart';
 import 'features/auth/presentation/pages/register_page.dart';
 import 'features/home/presentation/pages/home_page.dart';
 import 'features/home/presentation/pages/splash_screen.dart';
+import 'features/focus_timer/presentation/pages/focus_timer_page.dart';
+import 'features/tracker/presentation/pages/mood_page.dart';
+import 'features/ai_therapist/presentation/pages/ai_coach_page.dart';
 import 'features/onboarding/presentation/pages/onboarding_page.dart';
 import 'l10n/app_localizations.dart';
 
@@ -81,6 +84,9 @@ class FocusForgeApp extends StatelessWidget {
             '/register': (context) => const RegisterPage(),
             '/onboarding': (context) => const OnboardingPage(),
             '/home': (context) => const HomePage(),
+            '/focus_timer': (context) => const FocusTimerPage(),
+            '/mood_tracker': (context) => const MoodPage(),
+            '/ai_coach': (context) => const AiCoachPage(),
           },
         ),
       ),

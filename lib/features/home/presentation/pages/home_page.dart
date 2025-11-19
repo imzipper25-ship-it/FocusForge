@@ -77,13 +77,13 @@ class HomeView extends StatelessWidget {
                   // Quick Actions
                   QuickActionsWidget(
                     onStartFocus: () {
-                      // TODO: Navigate to Focus Timer
+                      Navigator.pushNamed(context, '/focus_timer');
                     },
                     onLogMood: () {
-                      // TODO: Open Mood Logger
+                      Navigator.pushNamed(context, '/mood_tracker');
                     },
                     onAiCoach: () {
-                      // TODO: Open AI Chat
+                      Navigator.pushNamed(context, '/ai_coach');
                     },
                   ),
                   const SizedBox(height: 24),
